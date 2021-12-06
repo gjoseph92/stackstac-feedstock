@@ -1,5 +1,5 @@
 {% set name = "stackstac" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/stackstac-{{ version }}.tar.gz
-  sha256: 0cb86bcee9417fd353e157303843e853b3ab82ee71c1bcf303b5108d79928619
+  sha256: c8e9f65a9c6760f2d4bd345e0160c5bbe3ff4ce9787e106d1b21cd4c65fa3676
 
 build:
   number: 0
